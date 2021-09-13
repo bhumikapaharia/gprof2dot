@@ -49,5 +49,7 @@ jobs:
               apt-get install -qq -y --no-install-recommends graphviz && \
               python --version && \
               python tests/test.py && \
+              pytest tests/test.py && \
+              pytest test/ && \
               
               deactivate'
