@@ -51,6 +51,6 @@ jobs:
               python tests/test.py && \
               pip install pytest && \
               pytest tests/test.py && \
-              pytest test/ && \
+              pytest tests/ && \
               
               deactivate'
